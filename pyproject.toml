@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "orange-clicker"
+version = "0.1.0"
+authors = []
+description = ""
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.2.13"
+django-environ = "^0.11.2"
+mysqlclient = "^2.2.4"
+django-bootstrap-v5 = "^1.0.11"
+django-tailwind = "^3.8.0"
+django-browser-reload = "^1.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

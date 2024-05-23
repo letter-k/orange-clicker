@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+__pycache__/
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+
+# Static files
+/staticfiles/
+/static/
+
+# Node modules
+node_modules/
+
+# Tailwind CSS
+/dist/
+
+# Compiled CSS
+*.css.map
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# macOS files
+.DS_Store
+
+# Backup files
+*.bak
+*.orig
+*.tmp
+
+# Log files
+*.log
+
+# Git
+.git/
